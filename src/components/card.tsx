@@ -1,4 +1,4 @@
-const cartIcon = `${import.meta.env.BASE_URL}assets/images/icon-add-to-cart.svg`;
+const cartIcon = `assets/images/icon-add-to-cart.svg`;
 import type React from "react"
 import type { Product,Item } from "../models/Model";
 const increment = `${import.meta.env.BASE_URL}assets/images/icon-increment-quantity.svg`;
