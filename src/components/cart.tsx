@@ -1,7 +1,7 @@
 import { useMemo } from "react";
-import carbon from "../../assets/images/icon-carbon-neutral.svg";
+const carbon =`${import.meta.env.BASE_URL}assets/images/icon-carbon-neutral.svg`;
 import type { Item } from "../models/Model";
-import deleteIcon from "../../assets/images/icon-remove-item.svg"
+const deleteIcon = `${import.meta.env.BASE_URL}assets/images/icon-remove-item.svg`;
 import EmptyCart from "./emptyCart";
 const Cart: React.FC<{ items: Item[], onOpen: () => void,deleteItem:(name:string)=> void }> = ({ items, onOpen,deleteItem }) => {
   // نحسب التوتال مباشرة بدون useState
