@@ -1,4 +1,4 @@
-const cake= `${import.meta.env.BASE_URL}assets/images/illustration-empty-cart.svg`;
+const cake= `assets/images/illustration-empty-cart.svg`;
 export default function emptyCart() {
   return (
     <div className="empty">

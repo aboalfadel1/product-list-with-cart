@@ -1,6 +1,6 @@
 import type { FC, RefObject } from "react"
 import { createPortal } from "react-dom"
-const confirmedImage = `/assets/images/icon-order-confirmed.svg`;
+const confirmedImage = `assets/images/icon-order-confirmed.svg`;
 import type { Item } from "../models/Model";
 const Modal: FC<{dialogRef?: RefObject<HTMLDialogElement | null>,items:Item[],newOrder:()=>void}> = ({ dialogRef,items,newOrder }) => {
   return createPortal(

@@ -1,8 +1,8 @@
 const cartIcon = `assets/images/icon-add-to-cart.svg`;
 import type React from "react"
 import type { Product,Item } from "../models/Model";
-const increment = `${import.meta.env.BASE_URL}assets/images/icon-increment-quantity.svg`;
-const decrement = `${import.meta.env.BASE_URL}assets/images/icon-decrement-quantity.svg`;
+const increment = `assets/images/icon-increment-quantity.svg`;
+const decrement = `assets/images/icon-decrement-quantity.svg`;
 type CardProps = Product & {
   getItem: () => void,
   items: Item[],
