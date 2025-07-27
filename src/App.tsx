@@ -46,7 +46,7 @@ const modalRef = useRef<HTMLDialogElement>(null);
 
    
 useEffect(() => {
-    fetch("/data.json")
+    fetch("https://aboalfadel1.github.io/product-list-with-cart/data.json")
       .then((res) => {
         if (!res.ok) {
           throw new Error("Network response was not ok");
